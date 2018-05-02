@@ -1,0 +1,31 @@
+.Banner-box {
+    width: 100%;
+    /* background: crimson; */
+}
+
+.Banner-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.Banner-element {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-user-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-user-title {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}

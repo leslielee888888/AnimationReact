@@ -1,0 +1,52 @@
+@import '../../styles/variable';
+@for $i from 0 through 8 {
+  .menuLogo--icon#{$i} {
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin: 0 auto 15px;
+    background-image: url("../../images/icon#{$i+1}.png");
+  }
+}
+
+.menuLogo--span {
+  color: $yellow-color;
+}
+.menuLogo--title{
+  color: #888;
+  font-size: 24px;
+  margin-top: 15px;
+}
+.menuBox{
+  position: absolute;
+  top:50%;
+  transform:translateY(-50%);
+  width:100%;
+}
+.MenuTop{
+  background-color: $red-color;
+  height:400px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+.MenuTop--span_yellow{
+  color:$font-yellow-color;
+}
+.MenuTop--avatar{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #fff;
+  margin:0 auto;
+  overflow: hidden;
+}
+.MenuTop--Button{
+  width: 200px;
+  color:#fff;
+  background-color: $red-color;
+  border-color: #fff;
+  font-size: 24px;
+}

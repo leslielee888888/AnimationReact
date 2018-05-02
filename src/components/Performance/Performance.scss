@@ -1,0 +1,53 @@
+@import '../../styles/variable';
+
+.Performance-Bar_box{
+  background-color: #fff;
+  padding:0 15px;
+}
+.Tabs-list-title_box{
+  background: #fff;
+  padding: 15px 30px 15px 15px;
+  height: 100px;
+  box-sizing: border-box;
+}
+.Tabs-list-title_Flexbox{
+  p{
+    margin:0;
+    line-height: 35px;
+  }
+}
+.Tabs-list-title_Accordion{
+  :global(.am-accordion-header){
+    height:100px !important;
+  }
+  margin-bottom: 18px;
+}
+.Tabs-list-accordion_wrap{
+  padding-left:30px;
+  &:last-child .Tabs-list-accordion_Flexbox{
+    border-bottom:none;
+  }
+}
+.Tabs-list-accordion_Flexbox{
+  border-bottom:1PX solid #ddd;
+  padding:10px;
+}
+.Tabs-list-accordion_Avatar{
+  width:100px;
+  height:100px;
+}
+.Tabs-list-accordion_Budget{
+  width: 100px;
+  height:100px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  border-left:1PX solid #ddd;
+}
+.Tabs-list-accordion_Flex_Item{
+  height:100px;
+  p{
+    margin:0;
+    line-height: 50px;
+  }
+}

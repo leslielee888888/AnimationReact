@@ -1,0 +1,25 @@
+@import "./styles/variable";
+
+:global(*) {
+  font-family: 'Microsoft Yahei';
+  font-size: 24px;
+}
+
+:global(.red) {
+  //margin:0;
+  color: $red-color;
+}
+:global(.grey) {
+  //margin:0;
+  color: $grey-color;
+}
+:global(.text-overflow-ellipsis) {
+  //margin:0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+:global(.queue-anim-leaving) {
+  position: absolute;
+  width: 100%;
+}
